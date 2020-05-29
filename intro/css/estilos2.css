@@ -1,0 +1,71 @@
+p {
+    background-color: green;
+    opacity: 0.3;
+}
+div {
+    /* Green background with 30% opacity */
+    background: rgba(0, 128, 0, 0.3)
+}
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    margin-right: 200px;
+}
+
+body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+    margin-right: 200px;
+}
+
+p.one {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+}
+p.two {
+    border-style: dotted solid;
+    border-width: medium;
+    border-color: red green blue yellow;
+}
+p.three {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 20px 5px;
+    border-color: #ff0000;
+}
+p.four {
+    border-style: dotted solid double dashed;
+    border-width: thick;
+    border-color: rgb(255, 0, 0);
+}
+p.five {
+    border-style: double;
+    border-width: 25px 10px 4px 35px;
+}
+p.six {
+    border-style: double;
+    border-width: thick;
+}
+
+
+
+div {
+    border: 5px solid red;
+}
+p {
+    border-left: 6px dotted #7051ff;
+    background-color: lightgrey;
+}
+h4 {
+    border-bottom: 6px double rgba(0, 128, 0, 0.3);
+    background-color: lightgrey;
+}
+
+
+
+
+

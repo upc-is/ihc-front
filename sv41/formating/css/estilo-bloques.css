@@ -1,0 +1,25 @@
+* {
+    font-size: 4.5vw;
+}
+header, span, label {
+    border: solid 3px blue;
+    background-color: aqua;
+}
+
+nav {
+    border: solid 3px red;
+    background-color: chartreuse;
+}
+.impar {
+    color: chartreuse;
+    border: dotted 5px chartreuse;
+    background-color: black;
+}
+.par {
+    color: blue;
+    border: double 5px blue;
+    background-color: aqua;
+}
+#nav-rebelde {
+    color: blueviolet;
+}

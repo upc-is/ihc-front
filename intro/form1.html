@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <fieldset>
+            <legend>Datalist Element:</legend>
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
+

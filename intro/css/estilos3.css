@@ -1,0 +1,60 @@
+div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+p {
+    margin: 25px 50px 75px 100px;
+}
+span {
+    margin: 25px 50px;
+}
+h2 {
+    margin: 25px;
+}
+
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+p {
+    padding: 25px 50px 75px 100px;
+}
+span {
+    padding: 25px 50px;
+}
+h4 {
+    padding: 25px;
+}
+
+
+div {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+div {
+    min-height: 50px;
+    max-width: 50px;
+    background-color: powderblue;
+}
+p {
+    height: 100px;
+    max-width: 500px;
+    background-color: powderblue;
+}
+
+
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+

@@ -1,0 +1,10 @@
+body {
+    background-image: url("../image/tiny-flores.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
+p {
+    width: 250px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="css/tabla.css">
+    <style>
+        body {
+            font-size: 4vw;
+        }
+    </style>
+    <script>
+        function saludar() {
+            alert("Hello programmers");
+        }
+    </script>
+</head>
+<body onload="saludar()">
+<table id="table-example">
+    <caption>Titulo de la Tabla</caption>
+    <thead>
+        <!-- tr>th{head $}*3 -->
+        <tr>
+            <th colspan="2">head 1</th>
+            <th rowspan="2">head 3</th>
+        </tr>
+        <tr>
+            <th>dd</th>
+            <th>dd</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- (tr>td{Numero $}*3)*3 -->
+        <tr class="impar">
+            <td>Numero 1</td>
+            <td>Numero 2</td>
+            <td>Numero 3</td>
+        </tr>
+        <tr class="par">
+            <td>Numero 1</td>
+            <td>Numero 2</td>
+            <td>Numero 3</td>
+        </tr>
+        <tr class="impar">
+            <td>Numero 1</td>
+            <td>Numero 2</td>
+            <td>Numero 3</td>
+        </tr>
+        <tr  class="par">
+            <td>Numero 1</td>
+            <td>Numero 2</td>
+            <td>Numero 3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>footer 1</td>
+            <td id="footer2">footer 2</td>
+            <td>footer 3</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>

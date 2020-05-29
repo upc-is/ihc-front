@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <!-- width : Al ancho de la pantalla -->
+    <img src="image/flores.jpg" style="width: 100%">
+
+    <img src="image/flores.jpg" style="max-width: 400px">
+
+    <!-- picture>(source*2)+img -->
+    <picture>
+        <source srcset="image/tiny-flores.jpg" media="(max-width: 300px)">
+        <source srcset="image/small-flores.jpg" media="(max-width: 600px)">
+        <source srcset="image/medium-flores.jpg" media="(max-width: 900px)">
+        <source srcset="image/flores.jpg">
+        <img src="image/flores.jpg" alt="">
+    </picture>
+
+
+</body>
+</html>

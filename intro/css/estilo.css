@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #298733;
+    text-decoration: underline;
+}
+p {
+    color: chartreuse;
+    /*background-color: #1d5320;*/
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+}
+
+div header ul li {
+    background-color: crimson;
+}
+ul li:first-child {
+    color: chartreuse;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color:#298733;
+}
+a:link {
+    color: cadetblue;
+}
+a:visited {
+    color: dodgerblue;
+}
+a:active {
+    color: crimson;
+}
+#h3-principal {
+    font-size: 30px;
+    font-family: "Courier New";
+}
+#li-numero-2 {
+    font-size: 30px;
+}
+#ul-header li:last-child {
+    color: cadetblue;
+}
+.parrafo-principal {
+    font-size: 16px;
+}
+.parrafo-secundario {
+    font-size: 12px;
+}
+.parrafo-secundario, .parrafo-principal, #ul-header, h6, ul li {
+    color: #7051ff;
+}
+.parrafo-secundario, .parrafo-principal {
+    font-family: 'Roboto', sans-serif;
+}
+/* Parent */
+footer > p {
+    background-color: black;
+}
+/* Siguiente*/
+#li-numero-2 + li {
+    background-color: black;
+}
+.fondo {
+    background-color: darkolivegreen;
+    font-size: 10px;
+    color: chartreuse;
+}
+/* un parrafo que tiene la clases fondo */
+p.fondo {
+    font-size: 14px;
+}
+
+

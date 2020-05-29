@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+        th {
+            height: 50px;
+            text-align: left;
+        }
+        td {
+            height: 40px;
+            vertical-align: bottom;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        tbody tr:nth-child(odd) {    background-color: #f2f2f2;  }
+        tbody tr:hover {  background-color: rgba(255,251,86,0.43);  }
+        table, td, th { border: 1px solid #DDDDDD;  }
+    </style>
+</head>
+<body>
+<h2>CSS Table:</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+        </tr>
+        <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>Santos</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
+

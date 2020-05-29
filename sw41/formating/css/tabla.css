@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: solid 1px;
+}
+.impar {
+    background-color: #13fdf8;
+    color: blue;
+}
+.par {
+    background-color: #fdbb0c;
+    color: crimson;
+}
+#footer2 {
+    font-size: 25px;
+}
