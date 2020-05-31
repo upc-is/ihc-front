@@ -1,0 +1,46 @@
+h2 {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.mititulo {
+    background-color: chocolate;
+    padding: 5px;
+}
+#titulo {
+    background-color: blanchedalmond;
+    color: darkolivegreen;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+/*     */
+body {
+    margin-right: 150px;
+    background-image: url("../img/buho.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+p {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: coral;
+    /*       top  rigth bottom left */
+    /*padding: 50px 10px 10px 20px;*/
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 15px;
+}
+.principal {
+    border: solid 1px chocolate;
+    max-width: 400px;
+    min-width: 300px;
+}
+

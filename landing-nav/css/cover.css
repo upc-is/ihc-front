@@ -1,0 +1,20 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover {
+    height: 100%;
+}
+.cover-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+.cover-text h1 {
+    font-size: 30px;
+}

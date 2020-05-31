@@ -1,0 +1,48 @@
+.zone {
+    color: #FFF;
+    font-size: 2em;
+    border-radius: 4px;
+}
+
+.zone:hover {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+}
+.card {
+    background-color: #444;
+    margin: 50px;
+}
+
+.card > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.card > .text {
+    padding: 0 20px 20px;
+}
+button {
+    cursor: pointer;
+    background: gray;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #686de0;
+}
