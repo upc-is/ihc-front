@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid blue;*/
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+#header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(50,6,32,0.70);
+    font-weight: bold;
+    color: white;
+}
+#header-logo {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+#nav-menu {
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-around;
+    min-width: 50%;
+}
+#nav-menu li {
+    list-style: none;
+}
+#nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+#nav-menu li a.color-gray {
+    color: darkgray;
+}
+#nav-menu li a:hover {
+    color: chartreuse;
+}
+/* Burguer */
+.burger {
+    cursor: pointer;
+    display: none;
+}
+.burger div {
+    width: 22px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    border-radius: 1px;
+}
+
+/* Main */
+main {
+
+}
+.container {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+.main-mensaje {
+    margin: 10vh;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.main-mensaje h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+.main-mensaje p {
+    margin: 5vh;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* responsive Web */
+@media screen and (max-width: 990px) {
+    #header-nav {
+        background-color: black;
+        height: 54px;
+    }
+    #header-logo {
+        font-size: 16px;
+    }
+    #nav-menu {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .main-mensaje h1 {
+        font-size: 40px;
+    }
+    .main-mensaje p {
+        font-size: 14px;
+    }
+}
+
+
