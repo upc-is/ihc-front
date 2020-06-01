@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+/*    border: solid 1px green;*/
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 13vh;
+}
+#div-logo {
+    margin-left: 40px;
+}
+#div-logo h1 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#div-signin {
+    margin-right: 40px;
+}
+#div-signin a {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+}
+
+#sec-main {
+    height: 100vh;
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fondo {
+    height: 100%;
+    z-index: 1;
+}
+.sombreado {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+}
+.sec-main-text {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    max-width: 700px;
+    z-index: 4;
+}
+.sec-main-text h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+.sec-main-text form {
+    margin: 10px;
+}
+.sec-main-text form input {
+    width: 300px;
+    height: 40px;
+}
+.sec-main-text form button {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    border: none;
+}
+
+
+
+
+
+
