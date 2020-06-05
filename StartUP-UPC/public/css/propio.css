@@ -1,0 +1,17 @@
+* {
+    /*border: solid 1px red;*/
+}
+.container {
+    border-color: blue;
+}
+.bg-moradito {
+    background-color: #7952b3 !important;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
