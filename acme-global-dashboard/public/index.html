@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character Set Meta Tag -->
+    <meta charset="UTF-8">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="ACME Global Dashboard to illustrate the use of Google Charts Library Set">
+    <meta name="keywords" content="Dashboard, Google Charts, HTML, CSS, JavaScript, Bootstrap">
+    <meta name="author" content="ACME Software Development Team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ACME Global Dashboard</title>
+
+    <!-- Bootstrap Framework -->
+    <!-- Boostrap CSS Library -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <!-- Bootstrap JavaScript Library-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            crossorigin="anonymous"></script>
+
+    <!-- Google Charts Library Set -->
+    <!--Load the AJAX API-->
+    <script src="https://www.gstatic.com/charts/loader.js" type="text/javascript"></script>
+    <script src="scripts/main.js" type="module"></script>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/acme-logo.jpg" width="auto" height="32px" class="d-inline-block align-top"
+                 alt="ACME Logo" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Platform</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <!-- Title and Subtitle Section -->
+    <h1 style="padding-top: 50px">ACME Global Dashboard</h1>
+    <h2 style="padding-bottom: 100px">Realtime Performance Indicators.</h2>
+
+    <!-- Dashboard Section -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <!--Div that will hold the pie chart-->
+                <div id="pie_div"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Quarter Sales</h5>
+                    <p class="card-text">Last Quarter Sales information.</p>
+                    <a href="#" class="btn btn-primary">See detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <!--Div that will hold the Axis Tick chart-->
+                <div id="axis_tick_div"></div>
+                <div class="card-body">
+                    <h5 class="card-title">Population Distribution</h5>
+                    <p class="card-text">
+                        Population distribution information.
+                        Only Largest cities have been considered in the study
+                    </p>
+                    <a href="#" class="btn btn-primary">See detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
