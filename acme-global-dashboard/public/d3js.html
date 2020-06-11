@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+</head>
+<body>
+    <h2>Pie D3jS</h2>
+    <svg width='200' height='500'></svg>
+    <script>
+        chart = {
+            const svg = d3.create("svg")
+                .attr("viewBox", [0, 0, width, height]);
+
+            const bar = svg.append("g")
+                .attr("fill", "steelblue")
+                .selectAll("rect")
+                .data(data)
+                .join("rect")
+                .style("mix-blend-mode", "multiply")
+                .attr("x", d => x(d.name))
+                .attr("y", d => y(d.value))
+                .attr("height", d => y(0) - y(d.value))
+                .attr("width", x.bandwidth());
+
+            const gx = svg.append("g")
+                .call(xAxis);
+
+            const gy = svg.append("g")
+                .call(yAxis);
+
+            return Object.assign(svg.node(), {
+                update(order) {
+                    x.domain(data.sort(order).map(d => d.name));
+
+                    const t = svg.transition()
+                        .duration(750);
+
+                    bar.data(data, d => d.name)
+                        .order()
+                        .transition(t)
+                        .delay((d, i) => i * 20)
+                        .attr("x", d => x(d.name));
+
+                    gx.transition(t)
+                        .call(xAxis)
+                        .selectAll(".tick")
+                        .delay((d, i) => i * 20);
+                }
+            })
+        }
+    </script>
+</body>
+</html>
