@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Chart Example</title>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        google.charts.load('current', {packages: ['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            // 1. Definir el DataTable
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Ciudades');
+            data.addColumn('number', 'Infectados');
+            data.addRows([
+                ['Lima', 1000], ['Chiclayo', 400], ['Loreto', 800],
+                ['Arequipa', 68], ['Callao', 159], ['Tacna', 15],
+                ['Junin', 308]
+            ]);
+            // 2. Establecer las opciones del Pie
+            var options = {'title':'Cantidad de infectados por ciudad',
+                'width':400,
+                'height':300};
+            // 3. Mostrar el chart
+            var chart = new google.visualization.PieChart(document.getElementById('piesito'));
+            chart.draw(data, options);
+        }
+
+    </script>
+</head>
+<body>
+    <div id="piesito"></div>
+
+</body>
+</html>
