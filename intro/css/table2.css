@@ -1,0 +1,12 @@
+h1, h2 {
+    border: dashed 2px red;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: red 1px solid;
+}

@@ -8,17 +8,12 @@
 <body>
     <h2>Responsive Image</h2>
     <!-- Using the width Property -->
-    <img src="img_girl.jpg" style="width:100%;">
-
-    <!-- Using the max-width Property -->
-    <img src="img_girl.jpg" style="max-width:100%;height:auto;">
-
-    <!-- Show Different Images Depending on Browser Width -->
+    <img src="image/flores.jpg" alt="" style>
     <picture>
-        <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-        <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-        <source srcset="flowers.jpg">
-        <img src="img_flowers.jpg" alt="Flowers" style="width:auto;">
+        <source media="(max-width: 400px)" srcset="image/tiny-flores.jpg">
+        <source media="(max-width: 800px)" srcset="image/small-flores.jpg">
+        <source media="(max-width: 1000px)" srcset="image/medium-flores.jpg">
+        <img src="image/flores.jpg" alt="">
     </picture>
 </body>
 </html>

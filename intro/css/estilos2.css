@@ -6,16 +6,16 @@ div {
     /* Green background with 30% opacity */
     background: rgba(0, 128, 0, 0.3)
 }
-body {
-    background-image: url("img_tree.png");
+/*body {
+    background-image: url("../image/workplace.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left top;
     background-attachment: fixed;
     margin-right: 200px;
-}
+}*/
 
 body {
-    background: #ffffff url("img_tree.png") no-repeat right top;
+    background: #ffffff url("../image/workplace.jpg") no-repeat right top;
     margin-right: 200px;
 }
 
