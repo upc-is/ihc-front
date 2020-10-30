@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+header {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    z-index: 1;
+}
+#logo {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+nav {
+    width: 50%;
+}
+#ul-nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+#ul-nav li {
+    list-style: none;
+}
+#ul-nav li a {
+    text-decoration: none;
+    color: white;
+}
+#section-main {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*align-items: center;*/
+    justify-content: center;
+    color: white;
+}
+#section-main h1 {
+    font-size: 60px;
+}
+#section-main h3 {
+    font-size: 40px;
+}
+#image-main {
+    height: 100%;
+    width: 100%;
+    background-image: url("../image/computadora.jpg");
+    position: absolute;
+    z-index: -1;
+}
