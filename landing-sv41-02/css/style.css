@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /*border: 1px red solid;*/
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bold;
+    height: 60px;
+    align-items: center;
+    background-color: #000000;
+}
+#logo {
+    font-family: 'Henny Penny', cursive;
+    font-size: 30px;
+    color: white;
+}
+nav {
+    width: 60%;
+}
+#nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+#nav-ul li {
+    list-style: none;
+}
+#nav-ul li a {
+    text-decoration: none;
+    color: #feffc1;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#main-image {
+    position: absolute;
+    background-image: url("../image/computadora.jpg");
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
