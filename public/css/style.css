@@ -71,3 +71,10 @@ body{
 .btn:hover{
 	opacity: 0.8;
 }
+
+.upc-logo {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 30vh;
+}
