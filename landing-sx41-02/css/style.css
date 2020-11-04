@@ -39,7 +39,6 @@ nav {
 }
 #section-main {
     font-family: 'Roboto', sans-serif;
-    position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;
