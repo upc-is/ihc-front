@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+}
+
+.search-box{
+  font-family: "Candara", sans-serif;
+  position: absolute;
+  background: #333A45;
+  height: 40px;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: 0 0 25px 0 rgba(51, 58, 69, 0.4);
+}
+
+.search-box input{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  width: 0px;
+  transition: all 0.8s;
+}
+
+.search-box:hover input{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box input:focus{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-btn{
+  border: none;
+  background: none;
+  outline: none;
+  width: 40px;
+  margin-top: -21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-btn i{
+  z-index: 1;
+  background: #00B894;
+  font-size: 30px;
+  color: #333A45;
+  padding: 25px;
+  border-radius: 50px;
+  box-shadow: 0 0 25px 0 rgba(0, 184, 148, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
