@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script>
+        var data = [80, 120, 60, 150, 200];
+        var barHeight = 20;
+        var bar = d3.select('svg').selectAll('rect').data(data).enter()
+            .append('rect').attr('width', function (d) {
+                return d;
+            }).attr('height', barHeight - 1).attr('transform', function (d, i) {
+                return "translate(0," + i * barHeight + ")";
+            });
+    </script>
+</head>
+<body>
+    <svg width='200' height='500'></svg>
+</body>
+</html>
