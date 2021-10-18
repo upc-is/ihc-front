@@ -1,0 +1,49 @@
+
+body {
+    background-image: url("../img/tiny.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: scroll;
+}
+h1, h2, h3, h4 {
+    color: blue;
+}
+p strong {
+    color: chartreuse;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+ul li:first-child {
+    color: #5fd6ff;
+}
+p {
+    background-color: chartreuse;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: dotted;
+}
+ul {
+    background-color: rgba(124, 23, 89, 0.5);
+}
+#prueba {
+    border: blue 10px solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+}
+p {
+    border-top: black 10px double;
+}
+#prueba {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}

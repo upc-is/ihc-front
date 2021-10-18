@@ -1,0 +1,32 @@
+* {
+    border: solid 1px red;
+}
+body {
+
+}
+h4 {
+    color: blueviolet;
+}
+p {
+    background: white;
+    color: black;
+}
+li {
+    font-size: 20px;
+}
+.vip {
+    font-size: 35px;
+    background-color: black;
+    color: white;
+}
+.lower {
+    font-size: 10px;
+    background-color: bisque;
+    color: darkgreen;
+}
+#h2-titulo {
+    border: solid 5px red;
+}
+#pa2 {
+    margin: 20px;
+}

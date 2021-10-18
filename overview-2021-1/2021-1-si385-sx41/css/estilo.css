@@ -1,0 +1,54 @@
+body {
+    background-image: url("../img/fruit.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    margin-top: 0;
+
+}
+#titulo {
+    /*border: blueviolet 10px solid;*/
+    border-color: blueviolet;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 0;
+    border-top: 0;
+    margin-top: 0;
+    font-family: "Arial";
+    font-size: 50px;
+}
+#mio {
+    color: blueviolet;
+    text-decoration: underline;
+}
+h3, h1, h5 {
+    color: blue;
+}
+header > p {
+    background-color: #ffe1eb;
+}
+#mio {
+    color: red;
+}
+main p {
+    background-color: antiquewhite;
+    color: #ff21d6;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+ul li:last-child {
+    text-decoration: underline;
+}
+div {
+    border: red 1px solid;
+    height: 100px;
+    max-width: 500px;
+    margin: 5px;
+}
