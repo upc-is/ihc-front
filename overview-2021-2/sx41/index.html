@@ -2,27 +2,40 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Title</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
             <a href="https://es-la.facebook.com/">
                 <img src="image/icono_facebook.jpg">
             </a>
+            <div id="text-header">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequuntur corporis, delectus dolore ipsa ipsum minus mollitia nostrum optio quibusdam similique sit tenetur vel? Autem enim harum non officia sed.
+            </div>
             <nav> Menu</nav>
         </header>
         <main>
             <section>
                 <h1>titulo 1</h1>
-                <h2>titulo 2</h2>
+                <h2 id="h2-main">titulo 2</h2>
                 <h3>titulo 3</h3>
-                <h4>titulo 4</h4>
+                <h4 class="escogido">titulo 4</h4>
                 <h5>titulo 5</h5>
                 <h6>titulo 6</h6>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aliquid atque beatae blanditiis, culpa debitis doloremque eveniet fuga illum maiores nihil, nulla officiis praesentium sed sit tempora, tempore vel!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam animi distinctio eaque eligendi esse est non perspiciatis possimus quia, quo recusandae reiciendis rem tenetur velit? Animi, cum, est. Rem?</p>
+                <div>
+                    <p>Lorem <ins>ipsum dolor sit amet, consectetur </ins>adipisicing elit. Accusamus accusantium aliquid atque beatae blanditiis, culpa debitis doloremque eveniet fuga illum maiores nihil, nulla officiis praesentium sed sit tempora, tempore vel!</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor <strong>sit amet</strong>, consectetur adipisicing elit. A aliquam animi distinctio eaque eligendi esse est non perspiciatis possimus quia, quo recusandae reiciendis rem tenetur velit? Animi, cum, est. Rem?</p>
+                </div>
 
+                <p class="escogido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis, dolores dolorum, ducimus esse est facilis fugiat incidunt inventore, ipsa omnis provident quas sequi vitae voluptatibus. Accusamus ducimus facilis perspiciatis.</p>
+                <p id="p4-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi inventore mollitia officia recusandae temporibus. Aliquam beatae, corporis, earum eum fuga inventore modi nemo porro provident quaerat, soluta tempore temporibus vel.</p>
             </section>
             <section>
                 <a href="https://www.jetbrains.com/rust/">
@@ -36,7 +49,7 @@
                 <ol>
                     <li>Java</li>
                     <li>C#</li>
-                    <li>Python</li>
+                    <li class="escogido">Python</li>
                     <li>C++</li>
                     <li>Ruby</li>
                 </ol>
@@ -47,7 +60,7 @@
                         </a>
                     </li>
                     <li>C#</li>
-                    <li>Python</li>
+                    <li id="li3-ul">Python</li>
                     <li>C++</li>
                     <li>Ruby</li>
                 </ul>
@@ -65,13 +78,13 @@
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Chura</td>
+                        <td class="escogido">Chura</td>
                         <td>Ricardo</td>
                         <td>34</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Molina</td>
+                        <td id="td2-tr2-table">Molina</td>
                         <td>Daniel</td>
                         <td>44</td>
                     </tr>
@@ -91,13 +104,15 @@
                     </tr>
                     </tfoot>
                 </table>
+                elemento
                 <div>
 
                 </div>
             </section>
         </main>
         <footer>
-            Footer
+            <p>Footer</p>
+
         </footer>
 
     </body>

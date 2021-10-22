@@ -1,0 +1,52 @@
+* {
+    border: solid 1px red;
+    padding: 5px;
+}
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    background-color: tomato;
+    color: yellow;
+    padding: 10px;
+    margin: 20px;
+}
+p {
+    font-size: 30px;
+    margin: 20px;
+}
+.escogido {
+    font-family: "Roboto Light";
+    font-size: 20px;
+    color: blueviolet;
+    border: solid 2px red;
+    background-color: antiquewhite;
+}
+#h2-main {
+    font-size: 40px;
+}
+#p4-main {
+    font-size: 10px;
+}
+#td2-tr2-table {
+    border: dotted 5px yellow;
+}
+@media screen and (max-width: 320px) {
+    #h2-main {
+        display: none;
+    }
+    #text-header {
+        display: none;
+    }
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+@media screen and (max-width: 640px) {
+    p {
+        font-size: 20px;
+        margin: 10px;
+    }
+}
