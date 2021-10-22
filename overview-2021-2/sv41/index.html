@@ -2,12 +2,16 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
             <img src="image/logo.png">
-            <nav></nav>
+            <nav>Menu </nav>
         </header>
         <main>
             <section>
@@ -18,19 +22,19 @@
                 <h5>Titulo 5</h5>
                 <h6>Titulo 6</h6>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eius maxime odio reprehenderit voluptas! Accusantium alias cupiditate eum hic, itaque libero, maxime omnis perspiciatis quam qui quis, repellendus tempora vel?</p>
-                <p>Lorem ipsum dolor <strong> sit amet,</strong> consectetur adipisicing elit. Assumenda eius maxime odio reprehenderit voluptas! Accusantium alias cupiditate eum hic, itaque libero, maxime omnis perspiciatis quam qui quis, repellendus tempora vel?</p>
-                <p>Lorem ipsum dolor <cite> sit amet, consectetur </cite> adipisicing elit. Assumenda eius maxime odio reprehenderit voluptas! Accusantium alias cupiditate eum hic, itaque libero, maxime omnis perspiciatis quam qui quis, repellendus tempora vel?</p>
+                <p>Lorem ipsum <mark> dolor sit amet, consectetur </mark> adipisicing elit. Assumenda eius maxime odio reprehenderit voluptas! Accusantium alias cupiditate eum hic, itaque libero, maxime omnis perspiciatis quam qui quis, repellendus tempora vel?</p>
+                <p class="back-light">Lorem ipsum dolor <strong> sit amet,</strong> consectetur adipisicing elit. Assumenda eius maxime odio reprehenderit voluptas! Accusantium alias cupiditate eum hic, itaque libero, maxime omnis perspiciatis quam qui quis, repellendus tempora vel?</p>
+                <p id="p3">Lorem ipsum dolor <cite> sit amet, consectetur </cite> adipisicing elit. Assumenda eius maxime odio reprehenderit voluptas! Accusantium alias cupiditate eum hic, itaque libero, maxime omnis perspiciatis quam qui quis, repellendus tempora vel?</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eius maxime odio reprehenderit voluptas! Accusantium alias cupiditate eum hic, itaque libero, maxime omnis perspiciatis quam qui quis, repellendus tempora vel?</p>
 
                 <ol>
                     <li>Uno</li>
-                    <li>Dos</li>
+                    <li class="back-light">Dos</li>
                     <li>Tres</li>
                 </ol>
                 <ul>
                     <li>Uno</li>
-                    <li>Dos</li>
+                    <li id="li2-ul1">Dos</li>
                     <li>Tres</li>
                     <li>
                         <a href="https://www.jetbrains.com/webstorm/">WebStorm</a>
@@ -45,9 +49,9 @@
                     </li>
                 </ul>
 
-                <table>
+                <table width="100%">
                     <thead>
-                    <tr>
+                    <tr class="back-light">
                         <th>Nro</th>
                         <th>Name</th>
                         <th>Age</th>
@@ -56,7 +60,7 @@
                     <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Carlos</td>
+                        <td id="td2-tr1-table">Carlos</td>
                         <td>18</td>
                     </tr>
                     <tr>
@@ -80,7 +84,9 @@
                 </table>
             </section>
             <section>
-
+                <div>
+                    Contenedor
+                </div>
             </section>
         </main>
         <footer>
