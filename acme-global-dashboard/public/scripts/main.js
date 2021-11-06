@@ -1,7 +1,3 @@
-// main.js
-//
-// ACME Dashboard Library
-
 import { drawCharts } from "./charts.js";
 
 // Load the Visualization API and the corechart package.

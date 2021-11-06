@@ -1,9 +1,8 @@
-// charts.js
-//
+export {drawCharts}
+
 // Callback that creates and populates a data table,
 // instantiates the pie chart, passes in the data and
 // draws it.
-
 function drawCharts() {
     drawPieChart()
     drawAxisTickColors()
@@ -13,20 +12,21 @@ function drawPieChart() {
 
     // Create the data table.
     const data = new google.visualization.DataTable();
-    data.addColumn('string', 'Project Type');
-    data.addColumn('number', 'Thousands of Requests');
+    data.addColumn('string', 'Topping');
+    data.addColumn('number', 'Slices');
     data.addRows([
-        ['Automation', 3],
-        ['Event Processing', 1],
-        ['Gamification', 1],
-        ['Geofencing', 1],
-        ['Internet Of Things', 2]
+        ['Mushrooms', 3],
+        ['Onions', 1],
+        ['Olives', 1],
+        ['Zucchini', 1],
+        ['Pepperoni', 2]
     ]);
 
     // Set chart options
     const options = {
-        title: 'Technology Projects by Type',
-        chartArea: {width: '80%'}
+        'title': 'How Much Pizza I Ate Last Night',
+        'width': 400,
+        'height': 300
     };
 
     // Instantiate and draw our chart, passing in some options.
@@ -55,7 +55,7 @@ function drawAxisTickColors() {
     // Set chart options
     const options = {
         title: 'Population of Largest U.S. Cities',
-        chartArea: {width: '40%'},
+        chartArea: {width: '50%'},
         hAxis: {
             title: 'Total Population',
             minValue: 0,
@@ -95,5 +95,3 @@ function drawAxisTickColors() {
     });
 
 }
-
-export { drawCharts }
