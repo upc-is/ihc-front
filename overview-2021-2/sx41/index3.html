@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="/js/donut.js"></script>
+    <script type="text/javascript" src="/js/geo.js"></script>
 
     <title>Hello, world!</title>
 </head>
@@ -24,17 +27,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -127,6 +119,15 @@
         </div>
 
     </section>
+    <section class="bg-white">
+        <h2>Donut Chart</h2>
+        <div id="donutchart" style="width: 900px; height: 500px;"></div>
+    </section>
+    <section class="bg-dark">
+        <h2>Cantidad de descargas del app mobile</h2>
+        <div id="regions_div" style="width: 900px; height: 500px;"></div>
+    </section>
+
 </main>
 
 
